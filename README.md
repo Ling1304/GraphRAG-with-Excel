@@ -5,9 +5,9 @@ This project demonstrates the integration of a Neo4j graph database with a large
 Using detailed examples, the LLM learns to generate precise Cypher queries based on user inputs, retrieving relevant data from the graph database to answer specific questions. The model is tuned with a few examples of questions and their corresponding Cypher queries, allowing it to understand the structure of the data and generate accurate queries on the fly when new questions are asked.
 
 ## Workflow: 
-Data Ingestion: Importing data from Excel into Neo4j using Cypher queries.
-Prompt Engineering: Using few-shot prompting to enable the LLM to generate Cypher queries based on natural language user inputs.
-Graph-based Information Retrieval: Efficiently querying the graph database and retrieving the most relevant information to answer user queries.
-Dynamic Query Generation: The LLM adapts to a variety of user questions by generating custom Cypher queries in real-time.
+- Data Ingestion: Importing data from Excel into Neo4j using Cypher queries.
+- Prompt Engineering: Using few-shot prompting to enable the LLM to generate Cypher queries based on natural language user inputs.
+- Graph-based Information Retrieval: Efficiently querying the graph database and retrieving the most relevant information to answer user queries.
+- Dynamic Query Generation: The LLM adapts to a variety of user questions by generating custom Cypher queries in real-time.
 
 This repository provides a solid foundation for building intelligent systems that leverage graph databases and natural language interfaces, enabling users to easily extract insights and interact with complex relational data.
